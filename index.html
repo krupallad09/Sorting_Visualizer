@@ -15,11 +15,11 @@
             <div class="header_left">
                 <p class="nav-heading">Sorting Visualizer</p>
                 <div class="algos">
-                    <button>BUBBLE</button>
-                    <button>SELECTION</button>
-                    <button>INSERTION</button>
-                    <button>MERGE</button>
-                    <button>QUICK</button>
+                    <button>Bubble</button>
+                    <button>Selection</button>
+                    <button>Insertion</button>
+                    <button>Merge</button>
+                    <button>Quick</button>
                 </div>   
             </div> 
 
@@ -28,7 +28,7 @@
                 <input id="a_size" type="range" min=20 max=150 step=1 value=80>
                 <p>Sorting Speed</p> 
                 <input id="a_speed" type="range" min=1 max=5 step=1 value=4>
-                <button id="a_generate">Generate New Array</button>
+                <button id="a_generate">Generate New Array !!</button>
             </div>
 
         </nav>
@@ -40,13 +40,16 @@
             <h3>Time complexity</h3>
             <div class="Complexity_Containers" id="Time_Complexity_Types_Container">
                 <div class="Pair_Definitions">
-                    <p class="Sub_Heading">Best case:</p>
+                    <p class = "Sub_Heading">Best case:</p>
+                    <p id="Time_Best"></p>
                 </div>
                 <div class="Pair_Definitions">
                     <p class="Sub_Heading">Average case:</p>
+                    <p id="Time_Average"></p>
                 </div>
                 <div class="Pair_Definitions">
-                    <p class="Sub_Heading">Worst case:</p>  
+                    <p class="Sub_Heading">Worst case:</p>
+                    <p id="Time_Worst"></p>  
                 </div>
             </div>
         </div>
@@ -68,5 +71,16 @@
     <footer>
 
     </footer>
+
+    <script src="./scripts/main.js"></script>
+    <!--This should be at the end of body and should be loaded before sorts.js-->
+    <script src="./scripts/visual.js"></script>
+    <!--This should be loaded after main.js-->
+
+    <script src="./scripts/bubble.js"></script>
+    <script src="./scripts/selection.js"></script>
+    <script src="./scripts/insertion.js"></script>
+    <script src="./scripts/merge.js"></script>
+    <script src="./scripts/quick.js"></script>
 </body>
 </html>

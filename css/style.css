@@ -112,7 +112,7 @@
   }
   
   nav .header_left .algos .butt_unselected:hover {
-    background-color: blue;
+    background-color: white;
     cursor: pointer;
   }
   

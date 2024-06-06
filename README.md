@@ -6,3 +6,5 @@ Sorting Visualizer is a web application that provides a visual representation of
 * Customizable array size and speed: Adjust the size of the array and the speed of the visualization.
 * Interactive UI: Start, pause, and reset the visualization at any time.
 * Educational tool: Ideal for students and educators to demonstrate and learn sorting algorithms.
+
+📊 Sorting.Visulizer 🕹Try It Now (https://krupallad09.github.io/Sorting_Visualizer/)

@@ -1,4 +1,4 @@
-# Sorting_Visualizer
+# 📊 Sorting_Visualizer 🕹  [Try it Here](https://krupallad09.github.io/Sorting_Visualizer/)
 Sorting Visualizer is a web application that provides a visual representation of various sorting algorithms. It's designed to help users understand how different sorting algorithms work by visualizing their execution step-by-step.
 
 # Features
@@ -7,4 +7,3 @@ Sorting Visualizer is a web application that provides a visual representation of
 - **Interactive UI:** Start, pause, and reset the visualization at any time.
 - **Educational tool:** Ideal for students and educators to demonstrate and learn sorting algorithms.
 
-# 📊 Sorting.Visualizer 🕹  [Try it Here](https://krupallad09.github.io/Sorting_Visualizer/).
